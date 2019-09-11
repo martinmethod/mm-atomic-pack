@@ -91,4 +91,4 @@ sw.*
 *.swp
 
 # Ignore files
-!.gitignore
+.gitignore
