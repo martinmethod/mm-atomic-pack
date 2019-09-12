@@ -1,7 +1,7 @@
 // ===================================================|
 // Global: FONT FACES
 
-//--------------------------| Variables
+// -------------------------| Variables
 $fonts-dir: '../../fonts';
 $fonts-prefix: 'mm';
 
@@ -22,7 +22,7 @@ $font-faces: (
   )
 );
 
-//--------------------------| Mixins
+// -------------------------| Mixins
 @mixin font-face($font-name, $style-name, $weight, $style: 'normal') {
   $style-name: if($style == 'italic', '#{$style-name}i', '#{$style-name}');
   $path: '#{$fonts-dir}/#{$fonts-prefix}-#{$font-name}/#{$style-name}';
@@ -36,7 +36,7 @@ $font-faces: (
   }
 }
 
-//--------------------------| Definitions
+// -------------------------| Definitions
 @for $f from 1 through length($font-faces) {
   $font-name: nth(nth($font-faces, $f), 1);
   $font-data: map-get($font-faces, $font-name);

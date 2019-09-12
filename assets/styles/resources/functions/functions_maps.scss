@@ -3,7 +3,7 @@
 
 $private-sassy-maps-suppress-warnings: false !default;
 
-//--------------------------| Map Get Deep Warning
+// -------------------------| Map Get Deep Warning
 // Displays a warning if the retrieved value is `null`
 @function map-get-deep-warning($warn, $get, $key) {
   @if not $private-sassy-maps-suppress-warnings {
@@ -17,7 +17,7 @@ $private-sassy-maps-suppress-warnings: false !default;
   @return null;
 }
 
-//--------------------------| Map Get Deep
+// -------------------------| Map Get Deep
 // Given a map and a list of keys, find the value at the given key
 @function map-get-deep($map, $keys...) {
   @if length($keys) == 1 {
@@ -46,7 +46,7 @@ $private-sassy-maps-suppress-warnings: false !default;
   @return $get;
 }
 
-//--------------------------| Map Get Keys
+// -------------------------| Map Get Keys
 @function get-keys($keys, $counter) {
   $return: ();
 
@@ -57,7 +57,7 @@ $private-sassy-maps-suppress-warnings: false !default;
   @return $return;
 }
 
-//--------------------------| Map Get Previous Key
+// -------------------------| Map Get Previous Key
 @function map-get-prev-key($map, $key) {
   $index: index($map, $key);
   $prev: $index - 1;
@@ -66,7 +66,7 @@ $private-sassy-maps-suppress-warnings: false !default;
   @return $result;
 }
 
-//--------------------------| Map Set
+// -------------------------| Map Set
 @function map-set($map, $key, $value) {
   @return map-merge(
     $map,
@@ -76,7 +76,7 @@ $private-sassy-maps-suppress-warnings: false !default;
   );
 }
 
-//--------------------------| Map Set Deep
+// -------------------------| Map Set Deep
 @function map-set-deep($map, $keys, $value) {
   $private-sassy-maps-suppress-warnings: true !global;
   $length: length($keys);

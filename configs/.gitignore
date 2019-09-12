@@ -90,5 +90,12 @@ sw.*
 # Vim swap files
 *.swp
 
-# Ignore files
-.gitignore
+# MM Atomic Pack configs
+/.browserslistrc
+/.editorconfig
+/.eslintrc.js
+/.gitignore
+/.prettierrc
+/.stylelintrc
+/banner.js
+/contentful.json

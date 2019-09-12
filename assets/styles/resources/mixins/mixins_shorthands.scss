@@ -1,7 +1,7 @@
 // ===================================================|
 // Mixins: SHORTHANDS
 
-//--------------------------| Positions
+// -------------------------| Positions
 @mixin position-stretched($type: absolute) {
   position: $type;
   top: 0;
@@ -10,13 +10,13 @@
   left: 0;
 }
 
-//--------------------------| Dimensions
+// -------------------------| Dimensions
 @mixin dimensions-square($value) {
   width: $value;
   height: $value;
 }
 
-//--------------------------| Padding
+// -------------------------| Padding
 @mixin padding-v($value) {
   padding-top: $value;
   padding-bottom: $value;
@@ -27,7 +27,7 @@
   padding-left: $value;
 }
 
-//--------------------------| Margin
+// -------------------------| Margin
 @mixin margin-v($value) {
   margin-top: $value;
   margin-bottom: $value;
@@ -38,7 +38,7 @@
   margin-left: $value;
 }
 
-//--------------------------| Border
+// -------------------------| Border
 @mixin border-v($value) {
   border-top: $value;
   border-bottom: $value;
