@@ -1,9 +1,8 @@
 import webpack from 'webpack';
-import banner from '../configs/banner';
 
 const envIsDev = process.env.NODE_ENV === 'development';
 
-export default {
+export default ({ banner }) => ({
   cssSourceMap: envIsDev,
 
   postcss: {
@@ -32,4 +31,4 @@ export default {
   },
 
   plugins: envIsDev ? [] : [new webpack.BannerPlugin({ banner })]
-};
+});
