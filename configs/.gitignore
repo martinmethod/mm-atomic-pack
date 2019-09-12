@@ -91,11 +91,11 @@ sw.*
 *.swp
 
 # MM Atomic Pack configs
-#/.browserslistrc
-#/.editorconfig
-#/.eslintrc.js
-#/.gitignore
-#/.prettierrc
-#/.stylelintrc
-#/banner.js
-#/contentful.json
+/.browserslistrc
+/.editorconfig
+/.eslintrc.js
+/.gitignore
+/.prettierrc
+/.stylelintrc
+/banner.js
+/contentful.json
