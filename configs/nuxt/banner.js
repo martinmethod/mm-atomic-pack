@@ -1,6 +1,4 @@
-import { title, homepage, author, version } from './package.json';
-
-export default `
+export default ({ title, homepage, author, version }) => `
  • ${title || name} (v${version})
    ${homepage}
    Copyright © ${new Date().getFullYear()} ${author.name}
