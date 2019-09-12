@@ -1,7 +1,7 @@
 // ===================================================|
 // Mixins: TYPOGRAPHY
 
-//--------------------------| Font smoothing
+// -------------------------| Font smoothing
 @mixin font-smoothing($value: antialiased) {
   @if $value == antialiased {
     -webkit-font-smoothing: antialiased;
@@ -12,7 +12,7 @@
   }
 }
 
-//--------------------------| Text uppercase
+// -------------------------| Text uppercase
 @mixin text-uppercase() {
   text-transform: uppercase;
   -moz-font-feature-settings: 'case';
@@ -20,7 +20,7 @@
   font-feature-settings: 'case' on;
 }
 
-//--------------------------| Selection
+// -------------------------| Selection
 @mixin selection($col) {
   $bgr: if($col != transparent, rgba($col, 0.5), rgba(0, 0, 0, 0));
 

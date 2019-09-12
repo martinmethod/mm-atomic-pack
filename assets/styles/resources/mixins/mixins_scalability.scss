@@ -1,7 +1,7 @@
 // ===================================================|
 // Mixins: SCALABILITY
 
-//--------------------------| Scaler
+// -------------------------| Scaler
 @mixin scaler(
   $property,
   $min-size,
@@ -34,7 +34,7 @@
   }
 }
 
-//--------------------------| Side spacer
+// -------------------------| Side spacer
 @mixin side-spacer(
   $min: map-get($roles-spaces-min, 'page'),
   $max: map-get($roles-spaces-max, 'page')

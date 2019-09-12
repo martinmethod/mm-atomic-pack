@@ -1,7 +1,7 @@
 //====================================================|
 // Functions: Z-INDEXES
 
-//--------------------------| Generator
+// -------------------------| Generator
 @function z-index($keys, $map: $roles-z-indexes) {
   $found-index: null;
 
@@ -17,7 +17,7 @@
   @return $found-index;
 }
 
-//--------------------------| Server
+// -------------------------| Server
 @function z($keys...) {
   @return z-index($keys);
 }
