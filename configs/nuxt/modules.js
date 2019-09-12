@@ -1,7 +1,11 @@
-const theme_color = '#ffffff';
-
-export default ({ title, author, description }) => {
-  return {
+export default ({ googleAnalyticsCode, title, author, description, theme_color = '#ffffff' }) => [
+  [
+    '@nuxtjs/google-analytics',
+    {
+      id: googleAnalyticsCode
+    }
+  ],
+  ['@nuxtjs/pwa', {
     meta: {
       viewport:
         'width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no',
@@ -36,5 +40,5 @@ export default ({ title, author, description }) => {
         src: '../sw.js'
       }
     }
-  };
-};
+  }]
+];
