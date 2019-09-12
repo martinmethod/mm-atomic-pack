@@ -12,6 +12,12 @@
     "selector-max-compound-selectors": 5,
     "no-descending-specificity": null,
     "order/properties-alphabetical-order": null,
+    "property-no-vendor-prefix": [
+      true,
+      {
+        "ignoreProperties": ["print-color-adjust"]
+      }
+    ],
     "selector-pseudo-class-no-unknown": [
       true,
       {
