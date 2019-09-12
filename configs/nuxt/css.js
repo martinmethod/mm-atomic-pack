@@ -1,4 +1,4 @@
-import { name } from '../../package.json'
+import { name } from '../../package.json';
 
 const resourcesPath = 'assets/styles/general';
 const atomicPath = `${name}/${resourcesPath}`;
