@@ -96,5 +96,4 @@ sw.*
 /.gitignore
 /.prettierrc
 /.stylelintrc
-/banner.js
 /contentful.json
