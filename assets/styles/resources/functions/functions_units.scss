@@ -20,6 +20,6 @@
 }
 
 // -------------------------| Get screen percent
-@function get-screen-percent($width, $screen: map-get($swatch-screens, 'min')) {
+@function get-screen-percent($width, $screen) {
   @return unquote('#{$width * 100 / $screen}%');
 }

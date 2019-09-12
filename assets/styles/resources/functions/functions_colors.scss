@@ -3,14 +3,10 @@
 
 // -------------------------| Light
 @function light($color, $percent) {
-  $white: #fff;
-
-  @return mix($white, $color, $percent);
+  @return mix(#fff, $color, $percent);
 }
 
 // -------------------------| Dark
 @function dark($color, $percent) {
-  $black: #000;
-
-  @return mix($black, $color, $percent);
+  @return mix(#000, $color, $percent);
 }

@@ -5,9 +5,7 @@
 $roles-borders-dividers: ();
 
 // -------------------------| Underlines
-$roles-borders-underlines: (
-  'link': map-get($swatch-borders, '1px-dotted-light-blue')
-);
+$roles-borders-underlines: ();
 
 // -------------------------| Wrappers
 $roles-borders-wrappers: ();

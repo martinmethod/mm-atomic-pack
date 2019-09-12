@@ -6,6 +6,7 @@ const localPath = `~${resourcesPath}`;
 
 export default {
   scss: [
+    `${atomicPath}/base.scss`,
     `${localPath}/base.scss`,
     `${atomicPath}/functions/**/*.scss`,
     `${localPath}/functions/**/*.scss`,
