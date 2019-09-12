@@ -2,10 +2,7 @@
 // Mixins: FORMS
 
 // -------------------------| Input placeholder
-@mixin input-placeholder(
-  $col: map-get($roles-col-texts, 'sys'),
-  $style: italic
-) {
+@mixin input-placeholder($col, $style: italic) {
   &:-moz-placeholder {
     color: $col;
     font-style: $style;
