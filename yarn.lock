@@ -7315,6 +7315,10 @@ sass-resources-loader@^2.0.0:
     glob "^7.1.1"
     loader-utils "^1.0.4"
 
+sass-resources@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/sass-resources/-/sass-resources-1.0.3.tgz#91595b6f2555f09f37a040ff584656bd7b5b6b6b"
+
 sax@^1.2.4, sax@~1.2.4:
   version "1.2.4"
   resolved "https://registry.yarnpkg.com/sax/-/sax-1.2.4.tgz#2816234e2378bddc4e5354fab5caa895df7100d9"
