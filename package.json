@@ -1,6 +1,6 @@
 {
   "name": "mm-atomic-pack",
-  "version": "1.7.0",
+  "version": "1.7.1",
   "description": "Assets and configs for my personal atomic pages",
   "repository": {
     "type": "git",
@@ -15,6 +15,7 @@
   "private": true,
   "dependencies": {
     "@contentful/rich-text-html-renderer": "^13.4.0",
+    "@nuxtjs/dotenv": "^1.4.1",
     "@nuxtjs/eslint-config": "^1.1.2",
     "@nuxtjs/eslint-module": "^1.0.0",
     "@nuxtjs/google-analytics": "^2.2.0",
@@ -25,7 +26,6 @@
     "babel-preset-vue": "^2.0.2",
     "contentful": "^7.9.1",
     "css-mqpacker": "^7.0.0",
-    "dotenv": "^8.1.0",
     "eslint": "^6.3.0",
     "eslint-config-prettier": "^6.3.0",
     "eslint-plugin-nuxt": ">=0.4.3",
