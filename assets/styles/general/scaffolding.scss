@@ -38,6 +38,10 @@ strong {
 a {
   text-decoration: none;
   cursor: pointer;
+
+  .desktop & {
+    transition: all map-get($roles-transitions, 'link') ease-in-out;
+  }
 }
 
 // -------------------------| Images
