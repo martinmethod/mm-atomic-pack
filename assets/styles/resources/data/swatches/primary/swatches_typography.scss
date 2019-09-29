@@ -6,6 +6,17 @@ $swatch-font-families: (
   'mm-sans': 'mm-sans, sans-serif'
 );
 
+// -------------------------| Font sizes
+$swatch-typo-font-sizes: (
+  '10': rem(10),
+  '11': rem(11),
+  '13': rem(13),
+  '15': rem(15),
+  '20': rem(20),
+  '28': rem(28),
+  '32': rem(32)
+);
+
 // -------------------------| Font weights
 $swatch-font-weights: (
   'hairline': 100,
