@@ -3,7 +3,7 @@
 
 // -------------------------| Font families
 $roles-typo-font-families: (
-  'base': unquote(map-get($swatch-font-families, 'mm-sans'))
+  'body': unquote(map-get($swatch-font-families, 'mm-sans'))
 );
 
 // -------------------------| Font sizes range
@@ -20,19 +20,19 @@ $roles-typo-font-sizes: (
   'section': map-get($swatch-typo-font-sizes, '28'),
   'item': map-get($swatch-typo-font-sizes, '20'),
   'info': map-get($swatch-typo-font-sizes, '15'),
-  'base': map-get($swatch-typo-font-sizes, '13'),
+  'body': map-get($swatch-typo-font-sizes, '15'),
   'meta': map-get($swatch-typo-font-sizes, '10'),
   'footer': map-get($swatch-typo-font-sizes, '10')
 );
 
 // -------------------------| Line-heights
 $roles-typo-line-heights: (
-  'base': map-get($swatch-line-heights, 'normal'),
+  'body': map-get($swatch-line-heights, 'normal'),
   'title': map-get($swatch-line-heights, '100%')
 );
 
 // -------------------------| Font weights
 $roles-typo-font-weights: (
-  'base': map-get($swatch-font-weights, 'regular'),
+  'body': map-get($swatch-font-weights, 'regular'),
   'title': map-get($swatch-font-weights, 'bold')
 );
