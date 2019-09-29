@@ -11,7 +11,7 @@ $roles-col-texts: (
 // -------------------------| Links
 $roles-col-links: (
   'link': map-get($swatch-colors-brand, 'blue'),
-  'hover': light(map-get($swatch-colors-brand, 'blue'), 25%),
+  'hover': light(map-get($swatch-colors-brand, 'blue'), 15%),
   'active': map-get($swatch-colors-brand, 'orange')
 );
 
