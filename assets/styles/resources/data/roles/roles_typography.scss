@@ -28,8 +28,7 @@ $roles-typo-font-sizes: (
 // -------------------------| Line-heights
 $roles-typo-line-heights: (
   'base': map-get($swatch-line-heights, 'normal'),
-  'title': map-get($swatch-line-heights, '100%'),
-  'text': map-get($swatch-line-heights, '130%')
+  'title': map-get($swatch-line-heights, '100%')
 );
 
 // -------------------------| Font weights
