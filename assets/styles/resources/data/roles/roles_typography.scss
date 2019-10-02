@@ -22,7 +22,7 @@ $roles-typo-font-sizes: (
   'info': map-get($swatch-typo-font-sizes, '15'),
   'body': map-get($swatch-typo-font-sizes, '15'),
   'meta': map-get($swatch-typo-font-sizes, '10'),
-  'footer': map-get($swatch-typo-font-sizes, '10')
+  'copyright': map-get($swatch-typo-font-sizes, '10')
 );
 
 // -------------------------| Line-heights
