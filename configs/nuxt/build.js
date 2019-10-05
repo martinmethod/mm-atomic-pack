@@ -3,6 +3,10 @@ import webpack from 'webpack';
 const envIsDev = process.env.NODE_ENV === 'development';
 
 export default ({ banner }) => ({
+  extend(config, { isDev }) {
+    if (isDev) config.resolve.symlinks = false;
+  },
+
   cssSourceMap: envIsDev,
 
   postcss: {
