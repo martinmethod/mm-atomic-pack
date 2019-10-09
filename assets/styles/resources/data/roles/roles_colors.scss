@@ -1,6 +1,13 @@
 // ===================================================|
 // Roles: COLORS
 
+// -------------------------| Theme
+$roles-col-theme: (
+  'primary': map-get($swatch-colors-brand, 'blue'),
+  'primary-dark': dark(map-get($swatch-colors-brand, 'blue'), 33%),
+  'secondary': map-get($swatch-colors-brand, 'orange')
+);
+
 // -------------------------| Text
 $roles-col-texts: (
   'base': map-get($swatch-colors-mono, 'mine-shaft'),
