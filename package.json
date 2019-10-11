@@ -1,6 +1,6 @@
 {
   "name": "mm-atomic-pack",
-  "version": "2.0.2",
+  "version": "2.1.0",
   "description": "Assets and configs for my personal atomic pages",
   "repository": {
     "type": "git",
@@ -15,6 +15,7 @@
   "private": true,
   "dependencies": {
     "@contentful/rich-text-html-renderer": "^13.4.0",
-    "contentful": "^7.10.0"
+    "contentful": "^7.10.0",
+    "dev-assets": "https://github.com/martinmethod/dev-assets#v1.0.5"
   }
 }
