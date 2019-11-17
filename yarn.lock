@@ -2113,6 +2113,21 @@ check-types@^8.0.3:
   version "8.0.3"
   resolved "https://registry.yarnpkg.com/check-types/-/check-types-8.0.3.tgz#3356cca19c889544f2d7a95ed49ce508a0ecf552"
 
+"chokidar@>=2.0.0 <4.0.0":
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/chokidar/-/chokidar-3.3.0.tgz#12c0714668c55800f659e262d4962a97faf554a6"
+  integrity sha512-dGmKLDdT3Gdl7fBUe8XK+gAtGmzy5Fn0XkkWQuYxGIgWVPPse2CxFA5mtrlD0TOHaHjEUqkWNyP1XdHoJES/4A==
+  dependencies:
+    anymatch "~3.1.1"
+    braces "~3.0.2"
+    glob-parent "~5.1.0"
+    is-binary-path "~2.1.0"
+    is-glob "~4.0.1"
+    normalize-path "~3.0.0"
+    readdirp "~3.2.0"
+  optionalDependencies:
+    fsevents "~2.1.1"
+
 chokidar@^2.0.2:
   version "2.1.8"
   resolved "https://registry.yarnpkg.com/chokidar/-/chokidar-2.1.8.tgz#804b3a7b6a99358c3c5c61e71d8728f041cff917"
@@ -2886,9 +2901,53 @@ detect-indent@^5.0.0:
   version "5.0.0"
   resolved "https://registry.yarnpkg.com/detect-indent/-/detect-indent-5.0.0.tgz#3871cc0a6a002e8c3e5b3cf7f336264675f06b9d"
 
-detect-libc@^1.0.2:
+detect-libc@^1.0.2, detect-libc@^1.0.3:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/detect-libc/-/detect-libc-1.0.3.tgz#fa137c4bd698edf55cd5cd02ac559f91a4c4ba9b"
+
+"dev-assets@https://github.com/martinmethod/dev-assets#v1.0.5":
+  version "1.0.5"
+  resolved "https://github.com/martinmethod/dev-assets#de78187eb6eb69a82adf2a40b894c0775bc36918"
+  dependencies:
+    "@nuxtjs/dotenv" "^1.4.1"
+    "@nuxtjs/eslint-config" "^1.1.2"
+    "@nuxtjs/eslint-module" "^1.1.0"
+    "@nuxtjs/google-analytics" "^2.2.0"
+    "@nuxtjs/pwa" "^3.0.0-0"
+    "@nuxtjs/style-resources" "^1.0.0"
+    "@nuxtjs/stylelint-module" "^3.0.0"
+    babel-eslint "^10.0.3"
+    babel-preset-vue "^2.0.2"
+    css-mqpacker "^7.0.0"
+    eslint "^6.5.1"
+    eslint-config-prettier "^6.4.0"
+    eslint-plugin-nuxt ">=0.4.3"
+    eslint-plugin-prettier "^3.1.1"
+    fibers "^4.0.1"
+    husky "^3.0.8"
+    lint-staged "^9.4.1"
+    mobile-device-detect "^0.3.3"
+    node-sass "^4.12.0"
+    normalize.css "^8.0.1"
+    nuxt "^2.10.0"
+    postcss-discard-comments "^4.0.2"
+    postcss-easing-gradients "^3.0.1"
+    postcss-flexbugs-fixes "^4.1.0"
+    postcss-import "^12.0.1"
+    postcss-preset-env "^6.7.0"
+    postcss-utilities "^0.8.4"
+    prettier "^1.18.2"
+    sass "^1.23.0"
+    sass-loader "^8.0.0"
+    sass-resources "^1.0.3"
+    stylelint "^11.0.0"
+    stylelint-config-prettier "^6.0.0"
+    stylelint-config-recess-order "^2.0.3"
+    stylelint-config-sass-guidelines "^6.1.0"
+    stylelint-config-standard "^19.0.0"
+    stylelint-prettier "^1.1.1"
+    stylelint-webpack-plugin "^1.0.1"
+    webpack latest
 
 diffie-hellman@^5.0.0:
   version "5.0.3"
@@ -3139,9 +3198,10 @@ eslint-ast-utils@^1.0.0:
     lodash.get "^4.4.2"
     lodash.zip "^4.2.0"
 
-eslint-config-prettier@^6.3.0:
-  version "6.3.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-6.3.0.tgz#e73b48e59dc49d950843f3eb96d519e2248286a3"
+eslint-config-prettier@^6.4.0:
+  version "6.6.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-6.6.0.tgz#4e039f65af8245e32d8fba4a2f5b83ed7186852e"
+  integrity sha512-6RGaj7jD+HeuSVHoIT6A0WkBhVEk0ULg74kp2FAWIwkYrOERae0TjIO09Cw33oN//gJWmt7aFhVJErEVta7uvA==
   dependencies:
     get-stdin "^6.0.0"
 
@@ -3569,6 +3629,13 @@ fastq@^1.6.0:
   dependencies:
     reusify "^1.0.0"
 
+fibers@^4.0.1:
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/fibers/-/fibers-4.0.2.tgz#d04f9ccd0aba179588202202faeb4fed65d497f5"
+  integrity sha512-FhICi1K4WZh9D6NC18fh2ODF3EWy1z0gzIdV9P7+s2pRjfRBnCkMDJ6x3bV1DkVymKH8HGrQa/FNOBjYvnJ/tQ==
+  dependencies:
+    detect-libc "^1.0.3"
+
 figgy-pudding@^3.5.1:
   version "3.5.1"
   resolved "https://registry.yarnpkg.com/figgy-pudding/-/figgy-pudding-3.5.1.tgz#862470112901c727a0e495a80744bd5baa1d6790"
@@ -3795,6 +3862,11 @@ fsevents@^1.2.7:
 fsevents@~2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/fsevents/-/fsevents-2.1.0.tgz#ce1a5f9ac71c6d75278b0c5bd236d7dfece4cbaa"
+
+fsevents@~2.1.1:
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/fsevents/-/fsevents-2.1.2.tgz#4c0a1fb34bc68e543b4b82a9ec392bfbda840805"
+  integrity sha512-R4wDiBwZ0KzpgOWetKDug1FZcYhqYnUYKtfZYt4mD5SBz76q0KR4Q9o7GIPamsVPGmW3EYPPJ0dOOjvx32ldZA==
 
 fstream@^1.0.0, fstream@^1.0.12:
   version "1.0.12"
@@ -7109,6 +7181,13 @@ readdirp@~3.1.3:
   dependencies:
     picomatch "^2.0.4"
 
+readdirp@~3.2.0:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/readdirp/-/readdirp-3.2.0.tgz#c30c33352b12c96dfb4b895421a49fd5a9593839"
+  integrity sha512-crk4Qu3pmXwgxdSgGhgA/eXiJAPQiX4GMOZZMXnqKxHX7TaoL+3gQVo/WeuAiogr07DpnfjIMpXXa+PAIvwPGQ==
+  dependencies:
+    picomatch "^2.0.4"
+
 redent@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/redent/-/redent-1.0.0.tgz#cf916ab1fd5f1f16dfb20822dd6ec7f730c2afde"
@@ -7462,6 +7541,13 @@ sass-resources-loader@^2.0.0:
 sass-resources@^1.0.3:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/sass-resources/-/sass-resources-1.0.3.tgz#91595b6f2555f09f37a040ff584656bd7b5b6b6b"
+
+sass@^1.23.0:
+  version "1.23.6"
+  resolved "https://registry.yarnpkg.com/sass/-/sass-1.23.6.tgz#7cce6dbeac1b8caeb33301a817642ee2708f7d7e"
+  integrity sha512-awBvj9xrAuiS2TOCcYSUGCmaBV3UW6fVSK4oJ2LHS8IRfnRLc5EJihw90C7ZJ/skcEwFGSf9/XO5NlMiKupBCg==
+  dependencies:
+    chokidar ">=2.0.0 <4.0.0"
 
 sax@^1.2.4, sax@~1.2.4:
   version "1.2.4"
