@@ -20,15 +20,15 @@ $roles-typo-font-sizes: (
   'section': map-get($swatch-typo-font-sizes, '28'),
   'item': map-get($swatch-typo-font-sizes, '20'),
   'info': map-get($swatch-typo-font-sizes, '15'),
-  'body': map-get($swatch-typo-font-sizes, '13'),
-  'meta': map-get($swatch-typo-font-sizes, '10'),
+  'body': map-get($swatch-typo-font-sizes, '15'),
+  'meta': map-get($swatch-typo-font-sizes, '11'),
   'copyright': map-get($swatch-typo-font-sizes, '10')
 );
 
 // -------------------------| Line-heights
 $roles-typo-line-heights: (
-  'body': map-get($swatch-line-heights, 'normal'),
-  'title': map-get($swatch-line-heights, '100%')
+  'title': map-get($swatch-line-heights, '100%'),
+  'text': map-get($swatch-line-heights, '150%')
 );
 
 // -------------------------| Font weights
