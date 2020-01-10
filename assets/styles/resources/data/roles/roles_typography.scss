@@ -14,7 +14,7 @@ $roles-typo-font-sizes-base: (
 
 // -------------------------| Font sizes hierarchy
 $roles-typo-font-sizes: (
-  'title': map-get($swatch-typo-font-sizes, '32'),
+  'title': map-get($swatch-typo-font-sizes, '30'),
   'subtitle': map-get($swatch-typo-font-sizes, '20'),
   'contact': map-get($swatch-typo-font-sizes, '11'),
   'section': map-get($swatch-typo-font-sizes, '28'),
