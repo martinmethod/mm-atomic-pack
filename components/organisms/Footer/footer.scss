@@ -12,3 +12,20 @@
     margin-bottom: rem(map-get($roles-spaces-min, 'atoms'));
   }
 }
+
+// -------------------------| Print styles
+@media print {
+  .root {
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+
+    > *:not(:last-child) {
+      display: inline-block;
+      width: rem($roles-size-logo / 2);
+      height: rem($roles-size-logo / 2 / map-get($roles-ratios, 'logo'));
+      margin: 0 0 0 rem(map-get($roles-spaces-min, 'atoms'));
+      order: 2;
+    }
+  }
+}
