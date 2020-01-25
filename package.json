@@ -1,6 +1,6 @@
 {
   "name": "mm-atomic-pack",
-  "version": "2.2.7",
+  "version": "2.2.8",
   "description": "Assets and configs for my personal atomic pages",
   "repository": {
     "type": "git",
@@ -9,7 +9,7 @@
   "author": {
     "name": "Martin Metodiev",
     "email": "metodiev.martin@gmail.com",
-    "url": "http://martinmetodiev.com"
+    "url": "https://metodiev.dev"
   },
   "license": "UNLICENSED",
   "private": true,
