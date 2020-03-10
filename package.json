@@ -4,7 +4,7 @@
   "description": "Assets and configs for my personal atomic pages",
   "repository": {
     "type": "git",
-    "url": "git://github.com/martinmethod/mm-atomic-pack.git"
+    "url": "git://github.com/methodev/mm-atomic-pack.git"
   },
   "author": {
     "name": "Martin Metodiev",
@@ -15,7 +15,7 @@
   "private": true,
   "dependencies": {
     "@contentful/rich-text-html-renderer": "^13.4.0",
-    "contentful": "^7.11.4",
-    "dev-assets": "https://github.com/martinmethod/dev-assets#v1.1.2"
+    "contentful": "^7.14.0",
+    "dev-assets": "https://github.com/methodev/dev-assets#v1.2.0"
   }
 }
