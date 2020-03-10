@@ -1,6 +1,6 @@
 {
   "name": "mm-atomic-pack",
-  "version": "2.3.0",
+  "version": "2.3.1",
   "description": "Assets and configs for my personal atomic pages",
   "repository": {
     "type": "git",
@@ -16,6 +16,6 @@
   "dependencies": {
     "@contentful/rich-text-html-renderer": "^13.4.0",
     "contentful": "^7.14.0",
-    "dev-assets": "https://github.com/methodev/dev-assets#v1.2.0"
+    "dev-assets": "https://github.com/methodev/dev-assets#v1.2.2"
   }
 }
