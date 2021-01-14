@@ -18,7 +18,7 @@ $font-faces: (
       'bl': map-get($swatch-font-weights, 'black'),
       'h': map-get($swatch-font-weights, 'heavy')
     ),
-    'italic': false
+    'italic': true
   )
 );
 
